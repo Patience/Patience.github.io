@@ -1,0 +1,54 @@
+<!doctype html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>don't pretend to be a tour guide</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<style type="text/css">
+			body {
+				margin: 0;
+				background: black;
+			}
+			div {
+				overflow: hidden;
+				position: relative;
+				left: 0;
+				top: 0;
+			}
+			img {
+				top: 0;
+				left: 0;
+				max-height: 100vh;
+				max-width: 100vw;
+			}
+			img:first-of-type {
+				position: relative;
+			}
+			img:last-of-type {
+				position: absolute;
+				mix-blend-mode: darken;
+				animation: pulse 7s linear infinite;
+				animation-direction: alternate;
+			}
+			@keyframes pulse {
+				0% {
+					opacity: 0;
+				}
+				100% {
+					opacity: 100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<img src="Untitled.png">
+			<img src="Untitled2.png">
+		</div>
+	</body>
+</html>
