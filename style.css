@@ -98,6 +98,7 @@ svg {
 /* expression */
 .expression {
 	animation: invertPulse 0.2s linear infinite;
+	animation-direction: alternate;
 }
 @keyframes invertPulse {
 	from {
