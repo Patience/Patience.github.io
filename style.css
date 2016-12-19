@@ -95,16 +95,3 @@ svg {
 	background: white;
 	width: 300px;
 }
-/* expression */
-.expression {
-	animation: invertPulse 0.2s linear infinite;
-	animation-direction: alternate;
-}
-@keyframes invertPulse {
-	from {
-		filter: invert();
-	}
-	to {
-		filter: none;
-	}
-}
